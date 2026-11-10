@@ -9,7 +9,9 @@ const app = express();
 
 const allowedOrigins = [
   "http://localhost:5173",
-  "https://resume-screener-assistant-5sylljd7a-argha-sahas-projects.vercel.app"
+  "https://resume-screener-assistant-5sylljd7a-argha-sahas-projects.vercel.app",
+  "https://resume-screener-assistant-argha-sahas-projects.vercel.app",
+  "https://resume-screener-assistant-two.vercel.app"
 ];
 
 app.use(cors({
