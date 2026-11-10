@@ -18,7 +18,7 @@ export const analysisOutputSchema = z.object({
 
   skillGaps: z
     .array(z.string().trim().min(1))
-    .max(5),
+    .max(3),
 
   interviewQuestions: z
     .array(z.string().trim().min(1))
